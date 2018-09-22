@@ -14,7 +14,12 @@ eureka:
     service-url:
       defaultZone: http://edmin:studyjava@eureka-config.com:7301/eureka
       # http://eurekaAdmin:studyeureka@eureka-dev.com:7001/eureka
----
+info:
+  app.name: study-microcloud-dev-1
+  company.name: www.study.cn
+  app.version: v-dev-1.0.0
+  
+ ---
 server:
   port: 8102
 spring:
@@ -26,3 +31,7 @@ eureka:
     service-url:
       defaultZone: http://edmin:studyjava@eureka-config.com:7301/eureka
       # http://eurekaAdmin:studyeureka@eureka-beta.com:7001/eureka
+info:
+  app.name: study-microcloud-beta-1
+  company.name: www.studyjava.cn
+  app.version: v-beta-1.0.0
